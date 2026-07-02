@@ -1,0 +1,19 @@
+ATYAB FRAGRANCE - FREE GOOGLE SHEET ADMIN SETUP
+
+Is updated ZIP mein website safe hai. Agar Google Sheet link empty rahe to website purane/default products hi show karegi.
+
+Google Sheet banane ka tareeqa:
+1. Google Drive > New > Google Sheets open karo.
+2. ZIP ke andar products_sheet_template.csv wali columns copy/paste kar do.
+3. Sheet mein products edit kar sakte ho: name, price, description, stock/badge, notes, image link etc.
+4. Google Sheet mein File > Share > Publish to web par jao.
+5. Entire Document ya sheet select karo, format CSV rakho, Publish karo.
+6. Jo CSV link mile usay google-sheet-config.js file mein paste karo:
+   window.ATYAB_PRODUCTS_CSV_URL = "YAHAN_CSV_LINK_PASTE_KARO";
+7. Updated files GitHub par upload kar do.
+
+Important:
+- Agar Google Sheet link galat ho ya internet/cache issue ho, website default products use karegi. Website blank nahi hogi.
+- Image change karni ho to image ka public direct link 'image' column mein paste karo.
+- Product id same rakhna behtar hai, jaise: dark-elixir, soft-desire, flora, mystic-sage, alchemy-x.
+- Blend X ka id abhi alchemy-x hi rakha hai taa ke website ki filtering/cart old setup ke sath safe rahe.
